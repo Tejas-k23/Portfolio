@@ -158,7 +158,7 @@ margin-left: 150px;
 }
 .details ul {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-columns: 1fr 1fr; 
   gap: 10px 40px;
   list-style: circle;
   padding: 0;
@@ -247,21 +247,21 @@ margin-left: 150px;
 
 .resume {
   background-color: aliceblue;
-  padding: 120px 20px 50px 20px; /* ✅ Balanced padding */
+  padding: 120px 20px 50px 20px; 
   
-  min-height: 100vh; /* ✅ allows more height if needed */
-  height: auto;       /* ✨ let the browser calculate needed height */
+  min-height: 100vh; 
+  height: auto;       
   margin-left: 0;
  
 
+}
 
-
-.resume strong {
+.resume strong{
   font-size: 35px;
   margin-left: 100px;
    
 }
-}
+
 
 .resume h4 {
   padding-top: 25px;
@@ -323,8 +323,8 @@ margin-left: 150px;
   font-size: 20px;
 }
 i:hover {
-  transform: scale(1.1); /* makes it bigger */
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* adds shadow */
+  transform: scale(1.1); 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -356,7 +356,7 @@ i:hover {
   margin-left: 0;
 }
 
-/* Portfolio Section */
+
 .portfolio {
   padding: 60px 20px;
   background: #f8f9fa;
